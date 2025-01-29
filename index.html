@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Закрывающий тег</title>
+    <link rel="icon" href="./icons/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="./icons/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/globals.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/animations.css" />
+    <link rel="stylesheet" href="./styles/themes.css" />
+  </head>
+  <body class="page">
+    <header class="header">
+      <h1 class="header__title">&lt;&frasl;html&gt;</h1>
+      <p class="header__text">Закрывающий тег</p>
+      <nav class="theme-menu header__theme-menu">
+        <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
+        <ul class="theme-menu__list">
+          <li class="theme-menu__item">
+            <button type="button" data-theme="dark" class="theme-menu__button">Темно</button>
+          </li>
+          <li class="theme-menu__item">
+            <button type="button" data-theme="auto" disabled class="theme-menu__button">Авто</button>
+          </li>
+          <li class="theme-menu__item">
+            <button type="button" data-theme="light" class="theme-menu__button">Светло</button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <article class="card">
+        <h2 class="card__title">Фритрек и нулевой спринт: Подготовка к работе</h2>
+        <div class="card__image-wrap">
+          <img src="./images/jesus.jpg" alt="Фургон в стиле pixelart" class="card__image image1" loading="lazy" />
+          <span class="card__image-label">&lt;&frasl;HTML&gt;</span>
+        </div>
+        <div class="card__text-box">
+          <p class="card__text">
+            Это было самое начало пути. На этом этапе важно было проникнуться основами и настроиться на учёбу. И,
+            возможно, подумать, как новые знания могут повлиять на ваше будущее.
+          </p>
+          <p class="card__text">Место для ваших воспоминаний о начале обучения.</p>
+        </div>
+        <div class="card__like-button-box">
+          <button type="button" class="card__icon-button">
+            <svg xmlns="http://www.w3.org/2000/svg" class="like-icon" width="39" height="36" aria-hidden="true">
+              <g class="heart">
+                <use href="./svg/heart.svg#contour" class="contour"></use>
+                <use href="./svg/heart.svg#main-body" class="main-body" />
+                <use href="./svg/heart.svg#core" class="core" />
+              </g>
+              <use href="./svg/heart.svg#sparks" class="sparks" />
+            </svg>
+          </button>
+          <button type="button" class="button card__like-button">
+            <span class="button__text">Like</span>
+          </button>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2 class="card__title">1 спринт: Я — чистый лист</h2>
+        <div class="card__image-wrap">
+          <img src="./images/cannot.jpg" alt="Фургон в стиле pixelart" class="card__image image2" loading="lazy" />
+          <span class="card__image-label">&lt;&frasl;HTML&gt;</span>
+        </div>
+        <div class="card__text-box">
+          <p class="card__text">
+            На первых этапах мы работали со страхами и сомнениями, которые часто испытывают новички. Один из них — страх
+            перед чистым листом. Это, конечно же, намного сложнее, чем боязнь куска бумаги. Часто за этим ощущением
+            скрываются более глубокие вопросы: с чего начать? а вдруг будет слишком сложно? что, если я не справлюсь?
+          </p>
+          <p class="card__text">Место для ваших воспоминаний о начале первого спринта.</p>
+        </div>
+        <div class="card__like-button-box">
+          <button type="button" class="card__icon-button">
+            <svg xmlns="http://www.w3.org/2000/svg" class="like-icon" width="39" height="36" aria-hidden="true">
+              <g class="heart">
+                <use href="./svg/heart.svg#contour" class="contour"></use>
+                <use href="./svg/heart.svg#main-body" class="main-body" />
+                <use href="./svg/heart.svg#core" class="core" />
+              </g>
+              <use href="./svg/heart.svg#sparks" class="sparks" />
+            </svg>
+          </button>
+          <button type="button" class="button card__like-button">
+            <span class="button__text">Like</span>
+          </button>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2 class="card__title">1 спринт: А если не получится?</h2>
+        <div class="card__image-wrap">
+          <img src="./images/stark.jpg" alt="Фургон в стиле pixelart" class="card__image image3" loading="lazy" />
+          <span class="card__image-label">&lt;CSS&gt;</span>
+        </div>
+        <div class="card__text-box">
+          <p class="card__text">
+            Первый проект — позади! Но это всё ещё самое начало пути. Радость могла быстро померкнуть и смениться
+            ожиданием провала. Или вы, наоборот, могли вдохновиться успехами и поверить в себя.
+          </p>
+          <p class="card__text">Место для ваших воспоминаний об окончании первого спринта.</p>
+        </div>
+        <div class="card__like-button-box">
+          <button type="button" class="card__icon-button">
+            <svg xmlns="http://www.w3.org/2000/svg" class="like-icon" width="39" height="36" aria-hidden="true">
+              <g class="heart">
+                <use href="./svg/heart.svg#contour" class="contour"></use>
+                <use href="./svg/heart.svg#main-body" class="main-body" />
+                <use href="./svg/heart.svg#core" class="core" />
+              </g>
+              <use href="./svg/heart.svg#sparks" class="sparks" />
+            </svg>
+          </button>
+          <button type="button" class="button card__like-button">
+            <span class="button__text">Like</span>
+          </button>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2 class="card__title">2 спринт: Погоня за идеалом</h2>
+        <div class="card__image-wrap">
+          <img src="./images/stark2.jpg" alt="Фургон в стиле pixelart" class="card__image image4" loading="lazy" />
+          <span class="card__image-label">&lt;desigions&gt;</span>
+        </div>
+        <div class="card__text-box">
+          <p class="card__text">
+            На этом этапе вы уже достаточно разбирались в основах вёрстки, чтобы понять, как много ещё впереди. Вы могли
+            попытаться погнаться за идеалом и понять, что он недостижим. А, может, вы вовсе и не подвержены
+            перфекционизму и вместо того, чтобы сделать идеально, старались просто сделать.
+          </p>
+          <p class="card__text">Место для ваших воспоминаний о начале второго спринта.</p>
+        </div>
+        <div class="card__like-button-box">
+          <button type="button" class="card__icon-button">
+            <svg xmlns="http://www.w3.org/2000/svg" class="like-icon" width="39" height="36" aria-hidden="true">
+              <g class="heart">
+                <use href="./svg/heart.svg#contour" class="contour"></use>
+                <use href="./svg/heart.svg#main-body" class="main-body" />
+                <use href="./svg/heart.svg#core" class="core" />
+              </g>
+              <use href="./svg/heart.svg#sparks" class="sparks" />
+            </svg>
+          </button>
+          <button type="button" class="button card__like-button">
+            <span class="button__text">Like</span>
+          </button>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2 class="card__title">2 спринт: О тех, кто рядом</h2>
+        <div class="card__image-wrap">
+          <img src="./images/harold.jpg" alt="Фургон в стиле pixelart" class="card__image image5" loading="lazy" />
+          <span class="card__image-label">&lt;care&gt;</span>
+        </div>
+        <div class="card__text-box">
+          <p class="card__text">
+            Всё это время вы были не одиноки (хотя, возможно, иногда и чувствовали, что одни против целого мира). Вас
+            окружали одногруппники, команда сопровождения и просто близкие люди, которым можно пожаловаться, если
+            очередной макет просто так не поддавался. Осваивать что-то новое легче, когда рядом есть единомышленники, не
+            правда ли?
+          </p>
+          <p class="card__text">Место для ваших воспоминаний об окончании второго спринта.</p>
+        </div>
+        <div class="card__like-button-box">
+          <button type="button" class="card__icon-button">
+            <svg xmlns="http://www.w3.org/2000/svg" class="like-icon" width="39" height="36" aria-hidden="true">
+              <g class="heart">
+                <use href="./svg/heart.svg#contour" class="contour"></use>
+                <use href="./svg/heart.svg#main-body" class="main-body" />
+                <use href="./svg/heart.svg#core" class="core" />
+              </g>
+              <use href="./svg/heart.svg#sparks" class="sparks" />
+            </svg>
+          </button>
+          <button type="button" class="button card__like-button">
+            <span class="button__text">Like</span>
+          </button>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2 class="card__title">3 спринт: Обходные стратегии</h2>
+        <div class="card__image-wrap">
+          <img src="./images/kindface.png" alt="Фургон в стиле pixelart" class="card__image image6" loading="lazy" />
+          <span class="card__image-label">&lt;support&gt;</span>
+        </div>
+        <div class="card__text-box">
+          <p class="card__text">
+            На этом курсе вы постоянно решали разные задачи. В какой-то момент вам могло показаться, что решения просто
+            иссякли. Значит, пришло время посмотреть на задачу под другим углом.
+          </p>
+          <p class="card__text">Место для ваших воспоминаний о начале третьего спринта.</p>
+        </div>
+        <div class="card__like-button-box">
+          <button type="button" class="card__icon-button">
+            <svg xmlns="http://www.w3.org/2000/svg" class="like-icon" width="39" height="36" aria-hidden="true">
+              <g class="heart">
+                <use href="./svg/heart.svg#contour" class="contour"></use>
+                <use href="./svg/heart.svg#main-body" class="main-body" />
+                <use href="./svg/heart.svg#core" class="core" />
+              </g>
+              <use href="./svg/heart.svg#sparks" class="sparks" />
+            </svg>
+          </button>
+          <button type="button" class="button card__like-button">
+            <span class="button__text">Like</span>
+          </button>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2 class="card__title">3 спринт: Когда опускаются руки</h2>
+        <div class="card__image-wrap">
+          <img
+            src="./images/kindface_dark.png"
+            alt="Фургон в стиле pixelart"
+            class="card__image image7"
+            loading="lazy"
+          />
+          <span class="card__image-label">&lt;lifes-style: none;&gt;</span>
+        </div>
+        <div class="card__text-box">
+          <p class="card__text">
+            Во время учёбы часто возникает чувство, когда не знаешь, за что хвататься. Вроде и проектную пора сдавать, и
+            задачи хочется порешать, и в теории получше разобраться, и жизнь не забыть пожить. В такие моменты очень
+            нужна концентрация. Вспомните, откуда вы её черпали.
+          </p>
+          <p class="card__text">Место для ваших воспоминаний об окончании третьего спринта.</p>
+        </div>
+        <div class="card__like-button-box">
+          <button type="button" class="card__icon-button">
+            <svg xmlns="http://www.w3.org/2000/svg" class="like-icon" width="39" height="36" aria-hidden="true">
+              <g class="heart">
+                <use href="./svg/heart.svg#contour" class="contour"></use>
+                <use href="./svg/heart.svg#main-body" class="main-body" />
+                <use href="./svg/heart.svg#core" class="core" />
+              </g>
+              <use href="./svg/heart.svg#sparks" class="sparks" />
+            </svg>
+          </button>
+          <button type="button" class="button card__like-button">
+            <span class="button__text">Like</span>
+          </button>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2 class="card__title">«Сейчас я здесь»</h2>
+        <div class="card__image-wrap">
+          <img src="./images/me.jpg" alt="Фургон в стиле pixelart" class="card__image image8" loading="lazy" />
+          <span class="card__image-label">&lt;experience&gt;</span>
+        </div>
+        <div class="card__text-box">
+          <p class="card__text">
+            Сейчас вы уже очень много знаете о вёрстке. Но это только начало. Во-первых, впереди ещё много материала про
+            «красотищу». Во-вторых, с окончанием курса учёба не заканчивается. Вёрстка — это целый мир. И этот мир
+            постоянно меняется. Познать его полностью не получится, но это тот случай, когда важен сам процесс познания.
+            Ведь часто путь — и есть результат.
+          </p>
+          <p class="card__text">Место, чтобы остановиться, подумать и написать, что вы чувствуете в этой точке пути.</p>
+        </div>
+        <div class="card__like-button-box">
+          <button type="button" class="card__icon-button">
+            <svg xmlns="http://www.w3.org/2000/svg" class="like-icon" width="39" height="36" aria-hidden="true">
+              <g class="heart">
+                <use href="./svg/heart.svg#contour" class="contour"></use>
+                <use href="./svg/heart.svg#main-body" class="main-body" />
+                <use href="./svg/heart.svg#core" class="core" />
+              </g>
+              <use href="./svg/heart.svg#sparks" class="sparks" />
+            </svg>
+          </button>
+          <button type="button" class="button card__like-button">
+            <span class="button__text">Like</span>
+          </button>
+        </div>
+      </article>
+
+      <button
+        type="button"
+        class="button save-button"
+        onclick="window['dialog-id'].showModal()"
+        aria-controls="dialog-id"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29" aria-hidden="true" class="icon-floppy">
+          <use href="./svg/floppy.svg#floppy" />
+        </svg>
+        <span class="button__text">Сохранить&nbsp;на&nbsp;память</span>
+      </button>
+    </main>
+    <dialog class="dialog" id="dialog-id">
+      <div class="dialog__wrap">
+        <div class="dialog__content">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 29 29"
+            width="39px"
+            aria-hidden="true"
+            class="dialog__icon"
+          >
+            <use href="./svg/floppy.svg#floppy" />
+          </svg>
+          <p class="dialog__text">Вставьте дискету, чтобы продолжить</p>
+        </div>
+        <button type="button" class="button dialog__button" onclick="window['dialog-id'].close()">
+          <span class="button__text">OK</span>
+        </button>
+      </div>
+    </dialog>
+    <script src="./scripts/set-theme.js"></script>
+    <script src="./scripts/like.js"></script>
+  </body>
+</html>
