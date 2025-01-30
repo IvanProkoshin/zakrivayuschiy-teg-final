@@ -380,7 +380,7 @@
   flex-direction: column;
   gap: 30px;
 
-  min-inline-size: clamp(21.3125rem, 20.4471rem + 3.6923vw, 22.0625rem);
+  min-inline-size: clamp(21.3125rem, 20.1587rem + 4.9231vw, 22.3125rem);
   min-block-size: 191px;
   background: var(--backgroundColor, white);
   color: var(--primaryColor, black);
