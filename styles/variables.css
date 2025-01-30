@@ -9,6 +9,6 @@
   --primaryColor: black;
   --buttonTextColor: white;
 
-  --regularFont: 'wght' 400, 'wdth' 100, 'opsz' 0;
-  --accentFont: 'wght' 700, 'wdth' 100, 'opsz' 0;
+  --regularFontWeight: 400;
+  --accentFontWeight: 700;
 }

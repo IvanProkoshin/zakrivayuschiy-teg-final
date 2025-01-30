@@ -13,8 +13,8 @@
   --primaryColor: #00cc14;
   --buttonTextColor: #00cc14;
 
-  --regularFont: 'wght' 465, 'wdth' 100, 'opsz' 0;
-  --accentFont: 'wght' 785, 'wdth' 100, 'opsz' 0;
+  --regularFontWeight: 465;
+  --accentFontWeight: 785;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,8 +26,8 @@
     --primaryColor: #00cc14;
     --buttonTextColor: #00cc14;
 
-    --regularFont: 'wght' 465, 'wdth' 100, 'opsz' 0;
-    --accentFont: 'wght' 785, 'wdth' 100, 'opsz' 0;
+    --regularFontWeight: 465;
+    --accentFontWeight: 785;
   }
 }
 
@@ -39,8 +39,8 @@
   --primaryColor: black;
   --buttonTextColor: white;
 
-  --regularFont: 'wght' 400, 'wdth' 100, 'opsz' 0;
-  --accentFont: 'wght' 700, 'wdth' 100, 'opsz' 0;
+  --regularFontWeight: 400;
+  --accentFontWeight: 700;
 }
 
 @media (prefers-color-scheme: light) {
@@ -52,7 +52,7 @@
     --primaryColor: black;
     --buttonTextColor: white;
 
-    --regularFont: 'wght' 400, 'wdth' 100, 'opsz' 0;
-    --accentFont: 'wght' 700, 'wdth' 100, 'opsz' 0;
+    --regularFontWeight: 400;
+    --accentFontWeight: 700;
   }
 }
